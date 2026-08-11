@@ -14,7 +14,7 @@ const Home = () => {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-brand-accent/20 via-brand-dark to-brand-dark -z-10"></div>
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6">
           Master the Markets with <br className="hidden md:block"/>
-          <span className="bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent">DTClassess</span>
+          <span className="bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent">DTclasses</span>
         </h1>
         <p className="max-w-2xl mx-auto text-xl text-brand-muted mb-10">
           Professional trading courses, highly accurate trading signals, and daily live market analysis to help you become a consistently profitable trader.
@@ -66,7 +66,7 @@ const Home = () => {
         <div className="max-w-4xl mx-auto bg-gradient-to-r from-brand-nav to-brand-dark border border-brand-accent/30 rounded-3xl p-12 text-center glow-effect">
           {isAuthenticated ? (
             <>
-              <h2 className="text-3xl font-bold text-white mb-6">Welcome Back to DTClassess</h2>
+              <h2 className="text-3xl font-bold text-white mb-6">Welcome Back to DTclasses</h2>
               <p className="text-brand-muted mb-8 text-lg">Continue your learning journey and access premium market analysis.</p>
               <Link to="/dashboard" className="bg-brand-primary hover:bg-brand-accent text-white px-8 py-4 rounded-lg text-lg font-bold transition-smooth inline-block">
                 Go to Dashboard

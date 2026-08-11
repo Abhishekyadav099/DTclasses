@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent">
-              DTClassess
+              DTclasses
             </Link>
           </div>
           <div className="hidden md:ml-6 md:flex md:space-x-8">

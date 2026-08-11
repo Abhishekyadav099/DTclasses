@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-1">
-            <span className="text-2xl font-bold bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent">DTClassess</span>
+            <span className="text-2xl font-bold bg-gradient-to-r from-brand-primary to-brand-accent bg-clip-text text-transparent">DTclasses</span>
             <p className="mt-4 text-brand-muted text-sm">
               Empowering individuals with professional stock market education, daily analysis, and profitable signals.
             </p>
@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
         <div className="mt-8 border-t border-brand-accent/20 pt-8 flex items-center justify-between">
           <p className="text-base text-brand-muted">
-            &copy; 2026 DTClassess. All rights reserved.
+            &copy; 2026 DTclasses. All rights reserved.
           </p>
         </div>
       </div>
