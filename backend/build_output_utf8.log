@@ -1,0 +1,209 @@
+﻿.\apache-maven-3.9.6\bi
+n\mvn.cmd : WARNING: A 
+restricted method in 
+java.lang.System has 
+been called
+At line:1 char:1
++ .\apache-maven-3.9.6\
+bin\mvn.cmd clean 
+compile > 
+build_output.log 2>& 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (WARNING: A re   
+ st...has been call    
+ed:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+WARNING: 
+java.lang.System::load 
+has been called by org.
+fusesource.jansi.intern
+al.JansiLoader in an 
+unnamed module (file:/C
+:/Users/abhis/OneDrive/
+Desktop/trading-platfor
+m/backend/apache-maven-
+3.9.6/lib/jansi-2.4.0.j
+ar)
+WARNING: Use --enable-n
+ative-access=ALL-UNNAME
+D to avoid a warning 
+for callers in this 
+module
+WARNING: Restricted 
+methods will be 
+blocked in a future 
+release unless native 
+access is enabled
+
+WARNING: A terminally 
+deprecated method in 
+sun.misc.Unsafe has 
+been called
+WARNING: sun.misc.Unsaf
+e::objectFieldOffset 
+has been called by com.
+google.common.util.conc
+urrent.AbstractFuture$U
+nsafeAtomicHelper (file
+:/C:/Users/abhis/OneDri
+ve/Desktop/trading-plat
+form/backend/apache-mav
+en-3.9.6/lib/guava-32.0
+.1-jre.jar)
+WARNING: Please 
+consider reporting 
+this to the 
+maintainers of class co
+m.google.common.util.co
+ncurrent.AbstractFuture
+$UnsafeAtomicHelper
+WARNING: sun.misc.Unsaf
+e::objectFieldOffset 
+will be removed in a 
+future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.tradingedu:trading-platform >-------------------
+[INFO] Building trading-platform 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ trading-platform ---
+[INFO] Deleting C:\Users\abhis\OneDrive\Desktop\trading-platform\backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ trading-platform ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ trading-platform ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 31 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/AuthController.java:[42,69] cannot find symbol
+  symbol:   method getEmail()
+  location: variable loginRequest of type com.tradingedu.dto.request.LoginRequest
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/AuthController.java:[42,94] cannot find symbol
+  symbol:   method getPassword()
+  location: variable loginRequest of type com.tradingedu.dto.request.LoginRequest
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/AuthController.java:[59,55] cannot find symbol
+  symbol:   method getEmail()
+  location: variable signUpRequest of type com.tradingedu.dto.request.SignupRequest
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/AuthController.java:[62,27] constructor MessageResponse in class com.tradingedu.dto.response.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/AuthController.java:[67,35] cannot find symbol
+  symbol:   method getName()
+  location: variable signUpRequest of type com.tradingedu.dto.request.SignupRequest
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/AuthController.java:[68,36] cannot find symbol
+  symbol:   method getEmail()
+  location: variable signUpRequest of type com.tradingedu.dto.request.SignupRequest
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/AuthController.java:[69,54] cannot find symbol
+  symbol:   method getPassword()
+  location: variable signUpRequest of type com.tradingedu.dto.request.SignupRequest
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/AuthController.java:[70,13] cannot find symbol
+  symbol:   method setRole(com.tradingedu.model.Role)
+  location: variable user of type com.tradingedu.model.User
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/AuthController.java:[74,34] constructor MessageResponse in class com.tradingedu.dto.response.MessageResponse cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/security/services/UserDetailsImpl.java:[37,58] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.tradingedu.model.User
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/security/services/UserDetailsImpl.java:[40,21] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.tradingedu.model.User
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/security/services/UserDetailsImpl.java:[41,21] cannot find symbol
+  symbol:   method getName()
+  location: variable user of type com.tradingedu.model.User
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/security/services/UserDetailsImpl.java:[42,21] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.tradingedu.model.User
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/security/services/UserDetailsImpl.java:[43,21] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.tradingedu.model.User
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/TradingSignalController.java:[42,43] cannot find symbol
+  symbol:   method getStatus()
+  location: variable signalDetails of type com.tradingedu.model.TradingSignal
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/CourseController.java:[53,26] cannot find symbol
+  symbol:   method setCourse(com.tradingedu.model.Course)
+  location: variable lessonRequest of type com.tradingedu.model.Lesson
+[INFO] 16 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.759 s
+[INFO] Finished at: 2026-03-12T13:32:05+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project trading-platform: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/AuthController.java:[42,69] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable loginRequest of type com.tradingedu.dto.request.LoginRequest
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/AuthController.java:[42,94] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable loginRequest of type com.tradingedu.dto.request.LoginRequest
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/AuthController.java:[59,55] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable signUpRequest of type com.tradingedu.dto.request.SignupRequest
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/AuthController.java:[62,27] constructor MessageResponse in class com.tradingedu.dto.response.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/AuthController.java:[67,35] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable signUpRequest of type com.tradingedu.dto.request.SignupRequest
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/AuthController.java:[68,36] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable signUpRequest of type com.tradingedu.dto.request.SignupRequest
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/AuthController.java:[69,54] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable signUpRequest of type com.tradingedu.dto.request.SignupRequest
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/AuthController.java:[70,13] cannot find symbol
+[ERROR]   symbol:   method setRole(com.tradingedu.model.Role)
+[ERROR]   location: variable user of type com.tradingedu.model.User
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/AuthController.java:[74,34] constructor MessageResponse in class com.tradingedu.dto.response.MessageResponse cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/security/services/UserDetailsImpl.java:[37,58] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.tradingedu.model.User
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/security/services/UserDetailsImpl.java:[40,21] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.tradingedu.model.User
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/security/services/UserDetailsImpl.java:[41,21] cannot find symbol
+[ERROR]   symbol:   method getName()
+[ERROR]   location: variable user of type com.tradingedu.model.User
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/security/services/UserDetailsImpl.java:[42,21] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.tradingedu.model.User
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/security/services/UserDetailsImpl.java:[43,21] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.tradingedu.model.User
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/TradingSignalController.java:[42,43] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable signalDetails of type com.tradingedu.model.TradingSignal
+[ERROR] /C:/Users/abhis/OneDrive/Desktop/trading-platform/backend/src/main/java/com/tradingedu/controller/CourseController.java:[53,26] cannot find symbol
+[ERROR]   symbol:   method setCourse(com.tradingedu.model.Course)
+[ERROR]   location: variable lessonRequest of type com.tradingedu.model.Lesson
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
