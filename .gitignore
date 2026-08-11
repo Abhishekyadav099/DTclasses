@@ -1,1 +1,5 @@
 backend/jdk-21.0.2/
+node_modules/
+dist/
+.env
+*.log
